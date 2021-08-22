@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Kyle Roebling Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="/../css/style.css">
+
+</head>
+<body>
+
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Portfolio</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="../index.html">Home</a></li>
+          <li><a href="../index.html#about">Bio</a></li>
+          <li><a href="../docs/Resume.pdf">Resume</a><li>
+          <li><a href="../index.html#Gallery">Gallery</a></li>
+          <li><a href="../index.html#Contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h3 class="text-center">Wisconsin Cancer Rate Study</h3></br>
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="/../media/Demo_Project1_Roebling.mp4" ></iframe>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <h3>Technologies Used: ArcPy | TKinter </h3></br>
+        <p>
+        The objective for project #1 in Geography 777 was to create an application that allows the user to explore the relationship between nitrate values in wells and cancer rates at the census tract level in Wisconsin. This application was developed using a python solution utilizing Arcpy and Tkinter. The GUI was built using Tkinter which allows even a non-GIS professional to create and explore maps comparing this relationship. The GUI will require the user to input a k value for the decay coefficient that will be used for the IDW interpolation. Once the user submits a k value greater than one, a separate analysis script utilizing Arcpy tools will run outputting two maps, one of the IDW interpolation of the nitrate values, and the other a map of the linear regression results. Along with these two maps, two reports will be generated one showing OLS results and the other showing Moran’s I results.
+        </p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
